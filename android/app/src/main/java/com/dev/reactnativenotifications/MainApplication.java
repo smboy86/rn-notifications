@@ -1,4 +1,4 @@
-package com.reactnativenotifications;
+package com.dev.reactnativenotifications;
 
 import android.app.Application;
 import android.content.Context;

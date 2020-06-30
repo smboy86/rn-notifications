@@ -1,4 +1,4 @@
-package com.reactnativenotifications;
+package com.dev.reactnativenotifications;
 
 import com.facebook.react.ReactActivity;
 
