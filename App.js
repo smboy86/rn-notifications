@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,6 +16,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import firebase, {utils} from '@react-native-firebase/app';
+
 import {
   Header,
   LearnMoreLinks,
@@ -24,7 +26,31 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+const credentials = {
+  clientId: '',
+  appId: '',
+  apiKey: '',
+  databaseURL: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  projectId: '',
+};
+
+const config = {
+  name: 'FCM 테스트',
+};
+
 const App: () => React$Node = () => {
+  useEffect(() => {
+    async function firebaseInit() {
+      // await firebase.initializeApp(credentials, config);
+      console.log('###############  :: ', firebase.SDK_VERSION);
+      console.log('###############  :: ', utils.FilePath.PICTURES_DIRECTORY);
+    }
+
+    firebaseInit();
+  }, []);
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
