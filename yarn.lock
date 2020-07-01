@@ -1134,6 +1134,11 @@
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
+"@react-native-firebase/auth@^8.0.8":
+  version "8.0.8"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-8.0.8.tgz#0b399c47151371a7c70c5a4d8ffed8483032fd70"
+  integrity sha512-b5yNss1OIl2Wx91ai9o226GCfG+1DmQS1ADTMQS9RJpLwTiBU58AuQO9K2IWdTFKIhMif/LB4cE3UQSASie7VA==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.0.tgz#c8d68821a854c555bba172f3b06959a0039b236d"
@@ -5446,6 +5451,11 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-notifications@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-notifications/-/react-native-notifications-3.2.2.tgz#d215992b5593ed0afb81276fed8b711cf4db9617"
+  integrity sha512-MZt3Y9vTDQpPWAHOGCgehKn/RwZzJTk2WfKiLV01GU8Rp5I8u68Djum9ogxK9nXkRznkbyifSb+54UPGzqa9DA==
 
 react-native@0.62.2:
   version "0.62.2"
